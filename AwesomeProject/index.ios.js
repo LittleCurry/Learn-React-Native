@@ -62,17 +62,13 @@ var ListScreen = React.createClass({
             size="large"
             color="#ffffff"
         />
-            <Image source={require('./images/background.png')} style={styles.backgroundLoading}>
-
-            </Image>i
-
-
             <View style={styles.horizontal}>
                 <ActivityIndicatorIOS color="#0000ff" />
                 <ActivityIndicatorIOS color="#aa00aa" />
                 <ActivityIndicatorIOS color="#aa3300" />
                 <ActivityIndicatorIOS color="#00aa00" />
             </View> */
+        
             <Image source={require('./images/background.png')} style={styles.backgroundLoading}>
 
             </Image>
