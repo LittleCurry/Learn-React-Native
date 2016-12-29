@@ -158,7 +158,7 @@ export default class AwesomeProject extends Component {
 
     //私有方法
     _renderContent(moduleName) {
-        let view = <ToiletPage/>;
+        let view = <ReadPage/>;
         switch (moduleName) {
 
             case 'readTab':

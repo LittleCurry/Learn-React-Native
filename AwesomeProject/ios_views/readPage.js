@@ -13,11 +13,11 @@ import {
 import Uitls from '../common/utils'
 
 //导入自定义组件
-import Category from './read/category';
-import List from './read/list';
-import Recommend from './read/recommend';
-import Search from './read/search';
-import Topic from './read/topic';
+import Category from './Home/category';
+import List from './Home/list';
+import Recommend from './Home/recommend';
+import Search from './Home/search';
+import Topic from './Home/topic';
 
 //hr组件，画出一条线
 class Hr extends Component {
@@ -73,7 +73,7 @@ class readView extends Component {
                             animating={true}
                             style={[{height: 80}]}
                             size="large"
-                            />)
+                        />)
                 }
             </View>
         );

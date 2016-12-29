@@ -9,7 +9,7 @@ import {
 //工具类
 import Uitls from '../common/utils';
 //引用自定义组件
-import TWebView from '../../../ios_views/twebview';
+import TWebView from './twebview';
 
 //天气模块
 class weatherPage extends Component {
