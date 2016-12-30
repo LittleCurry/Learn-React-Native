@@ -10,6 +10,8 @@ import {
     NavigatorIOS,
     ScrollView,
     TouchableOpacity,
+    TouchableHighlight,
+    ListView,
     AlertIOS
 } from 'react-native';
 
@@ -17,44 +19,67 @@ import {
 import Uitls from '../../common/utils';
 
 
-class getView extends Component {
+var getView = React.createClass({
+    getInitialState: function() {
+        return {
+            loaded: false,
+            users: new ListView.DataSource({
+                rowHasChanged: (row1, row2) => row1 !== row2,
+            }),
+        };
+    },
+    componentDidMount() {
+        this.fetchData();
+    },
+    fetchData() {
+        fetch(REQUEST_URL)
+            .then((response) => response.json())
+            .then((responseData) => {
+                this.setState({
+                    users: this.state.users.cloneWithRows(responseData),
+                    loaded: true,
+                });
+            })
+            .done();
+    },
 
-    constructor(props) {
-        super(props);
-    }
+    render(){
+        return this.renderList()
+    },
 
-    render() {
+    renderList(){
         return (
-
-            <ScrollView style={styles.container}>
-
-                <TouchableOpacity style={[styles.text_view, styles.text_margin]} onPress={this._showAlert()}>
-                    <Text style={styles.text}>普通提示框</Text>
-                </TouchableOpacity>
-
-                <TouchableOpacity style={[styles.text_view]}>
-                    <Text style={styles.text}>输入提示框</Text>
-                </TouchableOpacity>
-
-                <TouchableOpacity style={[styles.text_view]}>
-                    <Text style={styles.text}>提示列表菜单</Text>
-                </TouchableOpacity>
-
-
-                <TouchableOpacity style={[styles.text_view, styles.text_view_bottom]}>
-                    <Text style={styles.text}>分享弹出框</Text>
-                </TouchableOpacity>
-
-            </ScrollView>
+            <Image source={require('./img/background.png')} style={styles.backgroundImg}>
+                <ListView
+                    dataSource={this.state.users}
+                    renderRow={this.renderRow}
+                    style={styles.fullList}
+                    renderSeparator={(sectionID, rowID) => <View key={`${sectionID}-${rowID}`} style={styles.separator} />}
+                />
+            </Image>
         );
-    }
-
-    //显示邮箱信息
-    _showAlert() {
-        AlertIOS.alert('邮箱地址', '123456');
-    }
-
-}
+    },
+    renderRow(user){
+        return (
+            <TouchableHighlight
+                onPress={() => this.rowClicked(user)}
+                underlayColor = '#ddd'>
+                <View style={styles.rightCongtainer}>
+                    <Text style={styles.whiteText}>{user.nickname}</Text>
+                    <Text style={styles.whiteText}>{user.realname}</Text>
+                </View>
+            </TouchableHighlight>
+        );
+    },
+    rowClicked(user){
+        console.log(user);
+        this.props.navigator.push({
+            title: "详情页",
+            // component: DetailScreen,
+            passProps: {user:user},
+        });
+    },
+});
 
 class differentAlert extends Component {
 
@@ -63,7 +88,7 @@ class differentAlert extends Component {
             <NavigatorIOS
                 initialRoute={{
                     component: getView,
-                    title: '设置',
+                    title: '提示窗',
                     navigationBarHidden:true
                 }}
                 style={{flex: 1}}/>
