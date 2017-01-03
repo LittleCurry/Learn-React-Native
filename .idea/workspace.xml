@@ -28,12 +28,14 @@
       <file leaf-file-name="index.ios.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/index.ios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="164" column="35" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
+            <state relative-caret-position="765">
+              <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
               <folding>
                 <element signature="e#89#130#0" expanded="true" />
-                <element signature="e#17301#19415#0" expanded="false" />
-                <element signature="e#19456#19734#0" expanded="false" />
+                <element signature="e#17303#19417#0" expanded="false" />
+                <element signature="e#19458#19736#0" expanded="false" />
+                <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+                <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -42,11 +44,11 @@
       <file leaf-file-name="differentAlert.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="307">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
                 <element signature="e#45#86#0" expanded="true" />
-                <element signature="e#2523#3231#0" expanded="false" />
+                <element signature="e#2544#3252#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -55,7 +57,7 @@
       <file leaf-file-name="InitializeCore.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/node_modules/react-native/Libraries/Core/InitializeCore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="2400">
               <caret line="170" column="23" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
               <folding />
             </state>
@@ -65,7 +67,7 @@
       <file leaf-file-name="settingPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="840">
               <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -107,7 +109,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="50" />
-    <option name="y" value="126" />
+    <option name="y" value="32" />
     <option name="width" value="1219" />
     <option name="height" value="682" />
   </component>
@@ -137,6 +139,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -201,7 +204,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,21 +331,22 @@
       <workItem from="1482897515515" duration="15391000" />
       <workItem from="1482922204183" duration="494000" />
       <workItem from="1482989764152" duration="3191000" />
+      <workItem from="1483410680269" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57178000" />
+    <option name="totallyTimeSpent" value="57988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="126" width="1219" height="682" extended-state="0" />
-    <editor active="false" />
+    <frame x="50" y="32" width="1219" height="682" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21410993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.110929854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.110929854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11952862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -381,8 +384,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -393,8 +398,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -405,8 +412,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -417,8 +426,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -429,8 +440,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -448,8 +461,10 @@
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -467,8 +482,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -479,8 +496,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -645,9 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-          <folding>
-            <element signature="e#179#218#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1685">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="184" column="4" selection-start-line="184" selection-start-column="4" selection-end-line="184" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,13 +741,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6848">
           <caret line="4187" column="14" selection-start-line="4187" selection-start-column="14" selection-end-line="4187" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="840">
           <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -749,13 +759,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="862">
           <caret line="3009" column="34" selection-start-line="3009" selection-start-column="34" selection-end-line="3009" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/node_modules/react-native/Libraries/Core/InitializeCore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="2400">
           <caret line="170" column="23" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
           <folding />
         </state>
@@ -763,23 +772,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/index.ios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="164" column="35" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
+        <state relative-caret-position="765">
+          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#17301#19415#0" expanded="false" />
-            <element signature="e#19456#19734#0" expanded="false" />
+            <element signature="e#17303#19417#0" expanded="false" />
+            <element signature="e#19458#19736#0" expanded="false" />
+            <marker date="1483353474000" expanded="false" signature="0:87" ph="/** Sample React Native App ...*/" />
+            <marker date="1483353474000" expanded="true" signature="474:536" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="307">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
             <element signature="e#45#86#0" expanded="true" />
-            <element signature="e#2523#3231#0" expanded="false" />
+            <element signature="e#2544#3252#0" expanded="false" />
           </folding>
         </state>
       </provider>
