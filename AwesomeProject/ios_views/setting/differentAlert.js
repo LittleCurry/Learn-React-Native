@@ -51,11 +51,12 @@ var getView = React.createClass({
         return (
             <Image source={require('./img/background.png')} style={styles.backgroundImg}>
                 <ListView
-                    
+
                     dataSource={this.state.users}
                     renderRow={this.renderRow}
                     style={styles.fullList}
                     renderSeparator={(sectionID, rowID) => <View key={`${sectionID}-${rowID}`} style={styles.separator} />}
+                    
                 />
             </Image>
         );
