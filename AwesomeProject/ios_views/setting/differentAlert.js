@@ -8,6 +8,7 @@ import {
     Text,
     View,
     NavigatorIOS,
+    Image,
     ScrollView,
     TouchableOpacity,
     TouchableHighlight,
@@ -15,6 +16,8 @@ import {
     AlertIOS
 } from 'react-native';
 
+
+var REQUEST_URL = 'https://raw.githubusercontent.com/LeoMobileDeveloper/React-Native-Files/master/person.json';
 //工具类
 import Uitls from '../../common/utils';
 
@@ -49,7 +52,7 @@ var getView = React.createClass({
 
     renderList(){
         return (
-            <Image source={require('./img/background.png')} style={styles.backgroundImg}>
+            <Image source={require('../../images/background.png')} style={styles.backgroundImg}>
                 <ListView
 
                     dataSource={this.state.users}
