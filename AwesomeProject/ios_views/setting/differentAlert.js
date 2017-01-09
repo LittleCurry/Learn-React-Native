@@ -67,7 +67,6 @@ var getView = React.createClass({
     renderRow(user){
         return (
             <TouchableHighlight
-                onPress={() => this.rowClicked(user)}
                 underlayColor = '#ddd'>
                 <View style={styles.rightCongtainer}>
                     <Text style={styles.whiteText}>{user.nickname}</Text>
@@ -93,7 +92,7 @@ class differentAlert extends Component {
             <NavigatorIOS
                 initialRoute={{
                     component: getView,
-                    title: '提示窗',
+                    title: 'thenGet',
                     navigationBarHidden:true
                 }}
                 style={{flex: 1}}/>

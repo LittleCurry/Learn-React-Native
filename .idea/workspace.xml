@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bd58ab-9fbf-4d06-a43a-e1fc96eceebb" name="Default" comment="" />
+    <list default="true" id="c6bd58ab-9fbf-4d06-a43a-e1fc96eceebb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js" afterPath="$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js" afterPath="$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js" />
+    </list>
     <ignored path="ThirdRN.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,23 +30,23 @@
       <file leaf-file-name="index.ios.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/index.ios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="111" />
+            <state relative-caret-position="167">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding>
                 <element signature="e#89#130#0" expanded="true" />
-                <element signature="e#19458#19736#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="differentAlert.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="differentAlert.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="1560">
+              <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
               <folding>
-                <element signature="e#2676#3384#0" expanded="false" />
+                <element signature="e#45#86#0" expanded="true" />
+                <element signature="e#2626#3334#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settingPage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settingPage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="274">
+              <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#258#294#0" expanded="true" />
@@ -107,8 +111,8 @@
         <option value="$PROJECT_DIR$/AwesomeProject/ios_views/twebview.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/ios_views/readPage.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/index.ios.js" />
-        <option value="$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js" />
+        <option value="$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js" />
       </list>
     </option>
   </component>
@@ -119,10 +123,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
+    <option name="x" value="27" />
     <option name="y" value="23" />
     <option name="width" value="1219" />
-    <option name="height" value="682" />
+    <option name="height" value="684" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,7 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,7 +236,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,22 +368,22 @@
       <workItem from="1483692666406" duration="545000" />
       <workItem from="1483695480343" duration="1497000" />
       <workItem from="1483791840447" duration="870000" />
+      <workItem from="1483928667765" duration="4041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61020000" />
+    <option name="totallyTimeSpent" value="65061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1219" height="682" extended-state="0" />
+    <frame x="27" y="23" width="1219" height="684" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21410993" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12561175" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.110929854" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09430894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11952862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -389,6 +393,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12561175" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -416,7 +421,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -427,7 +431,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -438,7 +441,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -456,7 +458,6 @@
           <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -474,7 +475,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -485,7 +485,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -723,24 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_react-native_react-native.0.29.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6848">
-          <caret line="4187" column="14" selection-start-line="4187" selection-start-column="14" selection-end-line="4187" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#258#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/node_modules/xmlbuilder/node_modules/lodash/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="862">
@@ -769,23 +750,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/index.ios.js">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_react-native_react-native.0.29.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="111" />
-          <folding>
-            <element signature="e#89#130#0" expanded="true" />
-            <element signature="e#19458#19736#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="3535" column="8" selection-start-line="3535" selection-start-column="8" selection-end-line="3535" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/setting/differentAlert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="1560">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
           <folding>
-            <element signature="e#2676#3384#0" expanded="false" />
+            <element signature="e#45#86#0" expanded="true" />
+            <element signature="e#2626#3334#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/index.ios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="e#89#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/ios_views/settingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#258#294#0" expanded="true" />
           </folding>
         </state>
       </provider>
