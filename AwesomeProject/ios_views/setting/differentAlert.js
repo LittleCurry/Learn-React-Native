@@ -3,142 +3,59 @@
  */
 import React, { Component } from 'react';
 import {
-    AppRegistry,
-    StyleSheet,
-    Text,
     View,
-    NavigatorIOS,
-    Image,
-    ScrollView,
+    Text,
     TouchableOpacity,
-    TouchableHighlight,
     ListView,
-    AlertIOS
 } from 'react-native';
 
+import Item_MyListView from './Item_MyListView';
 
-var REQUEST_URL = 'https://raw.githubusercontent.com/LeoMobileDeveloper/React-Native-Files/master/person.json';
-//工具类
-import Uitls from '../../common/utils';
+export default class DifferentAlert extends React.Component{
 
-
-var getView = React.createClass({
-    getInitialState: function() {
-        return {
-            loaded: false,
-            users: new ListView.DataSource({
-                rowHasChanged: (row1, row2) => row1 !== row2,
-            }),
+    constructor(props){
+        super(props);
+        var ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+        this.state = {
+            dataSource: ds.cloneWithRows(this._genRows()),
         };
-    },
-    componentDidMount() {
-        this.fetchData();
-    },
-    fetchData() {
-        fetch(REQUEST_URL)
-            .then((response) => response.json())
-            .then((responseData) => {
-                this.setState({
-                    users: this.state.users.cloneWithRows(responseData),
-                    loaded: true,
-                });
-            })
-            .done();
-    },
+
+
+    }
+
+    _genRows(){
+        const dataBlob = [];
+        for(let i = 0 ; i< 200 ; i ++ ){
+            dataBlob.push("aa"+i);
+        }
+        return dataBlob;
+    }
+
+    _pressRow(rowID){
+        alert("hellow"+rowID);
+    }
+
+    _renderRow(rowData, sectionID, rowID){
+        return (
+            <TouchableOpacity onPress={()=>this._pressRow(rowID)}>
+                <View>
+                    <Text>{"rowData:"+rowData+"   rowId:"+rowID}</Text>
+                    <Item_MyListView info={rowData}></Item_MyListView>
+                </View>
+            </TouchableOpacity>
+        );
+    }
 
     render(){
-        return this.renderList()
-    },
-
-    renderList(){
         return (
-            <Image source={require('../../images/background.png')} style={styles.backgroundImg}>
-                <ListView
-
-                    dataSource={this.state.users}
-                    renderRow={this.renderRow}
-                    style={styles.fullList}
-                    renderSeparator={(sectionID, rowID) => <View key={`${sectionID}-${rowID}`} style={styles.separator} />}
-                    
-                />
-            </Image>
-        );
-    },
-    renderRow(user){
-        return (
-            <TouchableHighlight
-                underlayColor = '#ddd'>
-                <View style={styles.rightCongtainer}>
-                    <Text style={styles.whiteText}>{user.nickname}</Text>
-                    <Text style={styles.whiteText}>{user.realname}</Text>
-                </View>
-            </TouchableHighlight>
-        );
-    },
-    rowClicked(user){
-        console.log(user);
-        this.props.navigator.push({
-            title: "详情页",
-            // component: DetailScreen,
-            passProps: {user:user},
-        });
-    },
-});
-
-class differentAlert extends Component {
-
-    render() {
-        return (
-            <NavigatorIOS
-                initialRoute={{
-                    component: getView,
-                    title: 'thenGet',
-                    navigationBarHidden:true
-                }}
-                style={{flex: 1}}/>
+            <View style={{flex:1,}}>
+                <ListView dataSource={this.state.dataSource} renderRow={this._renderRow.bind(this)}/>
+            </View>
         );
     }
-
 }
 
-//样式表
-const styles = StyleSheet.create({
-    container: {
-        paddingLeft: 0,
-        paddingRight: 0
-    },
-    image_view: {
-        justifyContent: "center",
-        alignItems: "center",
-        marginTop: 30
-    },
-    text_view: {
-        borderTopWidth: Uitls.pixel,
-        borderTopColor: "#ccc",
-        height: 44,
-        justifyContent: "center",
-        paddingLeft: 20
-    },
-    text_margin: {
-        marginTop: 30
-    },
-    text_view_bottom: {
-        borderBottomWidth: Uitls.pixel,
-        borderBottomColor: "#ccc"
-    },
-    text: {
-        fontSize: 16,
-        fontWeight: "400",
-        color: "#666666"
-    },
-    version: {
-        color: "#666666"
-    },
-    icon: {
-        width: 88,
-        height: 100
-    }
+React.AppRegistry.registerComponent('DifferentAlert', function() { return DifferentAlert });
+// AppRegistry.registerComponent('DifferentAlert', () => DifferentAlert);
 
-});
 
-module.exports = differentAlert;

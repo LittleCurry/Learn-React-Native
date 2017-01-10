@@ -17,6 +17,7 @@ import Uitls from '../common/utils';
 import About from './setting/about';
 import Help from './setting/help';
 import Detail from './setting/detail';
+import ThenGet from './setting/thenGet';
 import Alerts from './setting/differentAlert';
 
 //设置模块
@@ -61,8 +62,14 @@ class settingView extends Component {
 
                 <TouchableOpacity
                     style={[styles.text_view, styles.text_view_bottom]}
-                    onPress={this._showDetail.bind(this, Alerts, "thenGet")}>
+                    onPress={this._showDetail.bind(this, ThenGet, "thenGet")}>
                     <Text style={styles.text}>thenGet</Text>
+                </TouchableOpacity>
+
+                <TouchableOpacity
+                    style={[styles.text_view, styles.text_view_bottom]}
+                    onPress={this._showDetail.bind(this, Alerts, "提示窗")}>
+                    <Text style={styles.text}>提示窗</Text>
                 </TouchableOpacity>
 
 
