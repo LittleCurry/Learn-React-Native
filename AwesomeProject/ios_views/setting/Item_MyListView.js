@@ -14,7 +14,6 @@ import {
 
 export default class Item_MyListView extends React.Component{
 
-
     render(){
         return (
             <View style={{flex:1}}>
@@ -23,4 +22,5 @@ export default class Item_MyListView extends React.Component{
     }
 }
 
-AppRegistry.registerComponent('Item_MyListView', () => Item_MyListView);
+// AppRegistry.registerComponent('Item_MyListView', () => Item_MyListView);
+module.exports = Item_MyListView;
