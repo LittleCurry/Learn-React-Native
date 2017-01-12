@@ -55,7 +55,8 @@ export default class DifferentAlert extends React.Component{
     }
 }
 
-React.AppRegistry.registerComponent('DifferentAlert', function() { return DifferentAlert });
+// React.AppRegistry.registerComponent('DifferentAlert', function() { return DifferentAlert });
 // AppRegistry.registerComponent('DifferentAlert', () => DifferentAlert);
+module.exports = DifferentAlert;
 
 

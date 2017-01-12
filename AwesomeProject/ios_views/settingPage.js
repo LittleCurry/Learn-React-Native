@@ -66,11 +66,7 @@ class settingView extends Component {
                     <Text style={styles.text}>thenGet</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity
-                    style={[styles.text_view, styles.text_view_bottom]}
-                    onPress={this._showDetail.bind(this, Alerts, "提示窗")}>
-                    <Text style={styles.text}>提示窗</Text>
-                </TouchableOpacity>
+
 
 
             </ScrollView>
