@@ -66,6 +66,12 @@ class settingView extends Component {
                     <Text style={styles.text}>thenGet</Text>
                 </TouchableOpacity>
 
+                <TouchableOpacity
+                    style={[styles.text_view, styles.text_view_bottom]}
+                    onPress={this._showDetail.bind(this, Alerts, "listView")}>
+                    <Text style={styles.text}>listView</Text>
+                </TouchableOpacity>
+
 
 
 
