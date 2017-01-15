@@ -19,6 +19,7 @@ import Help from './setting/help';
 import Detail from './setting/detail';
 import ThenGet from './setting/thenGet';
 import Alerts from './setting/differentAlert';
+import PlayVideo from './../publicViews/playVideo';
 
 //设置模块
 class settingView extends Component {
@@ -72,7 +73,11 @@ class settingView extends Component {
                     <Text style={styles.text}>listView</Text>
                 </TouchableOpacity>
 
-
+                <TouchableOpacity
+                    style={[styles.text_view, styles.text_view_bottom]}
+                    onPress={this._showDetail.bind(this, PlayVideo, "playVideo")}>
+                    <Text style={styles.text}>playVideo</Text>
+                </TouchableOpacity>
 
 
             </ScrollView>
