@@ -12,7 +12,7 @@ import {
 
 
 
-class vlcplayer extends Component {
+class Vlcplayer extends Component {
 
     render() {
         const uri = 'http://cdn.goluk.cn/video/t1_2.mp4';
