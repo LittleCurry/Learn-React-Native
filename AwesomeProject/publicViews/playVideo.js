@@ -9,6 +9,8 @@ import {
     Video
 } from 'react-native';
 
+import { Video } from 'react-native-video';
+
 
 
 
