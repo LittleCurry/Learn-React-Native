@@ -28,8 +28,10 @@ class Vlcplayer extends Component {
          <Video uri={uri} />
          <Text>A full-featured player</Text>
          */
+        // 播不出视频的原意和video-player的安装使用有关
         return (
             <View>
+
 
             </View>
         );
