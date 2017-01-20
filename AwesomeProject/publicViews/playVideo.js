@@ -29,6 +29,7 @@ class Vlcplayer extends Component {
          <Text>A full-featured player</Text>
          */
         // 播不出视频的原意和video-player的安装使用有关
+        // 
         return (
             <View>
 
