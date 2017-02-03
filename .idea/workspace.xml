@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bd58ab-9fbf-4d06-a43a-e1fc96eceebb" name="Default" comment="" />
+    <list default="true" id="c6bd58ab-9fbf-4d06-a43a-e1fc96eceebb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AwesomeProject/publicViews/playVideo.js" afterPath="$PROJECT_DIR$/AwesomeProject/publicViews/playVideo.js" />
+    </list>
     <ignored path="ThirdRN.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -83,8 +85,8 @@
       <file leaf-file-name="playVideo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AwesomeProject/publicViews/playVideo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="339">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="e#44#85#0" expanded="true" />
               </folding>
@@ -462,11 +464,12 @@
       <workItem from="1484964908038" duration="11000" />
       <workItem from="1486036279595" duration="12000" />
       <workItem from="1486089858907" duration="33000" />
+      <workItem from="1486090219552" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90268000" />
+    <option name="totallyTimeSpent" value="90348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1219" height="691" extended-state="0" />
@@ -907,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AwesomeProject/publicViews/playVideo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="339">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="e#44#85#0" expanded="true" />
           </folding>
